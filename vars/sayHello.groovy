@@ -2,6 +2,6 @@
 
 def call(String name = 'human') {
   echo "Hello, ${name}."
-  ls
+  println "ls -l".execute().text
 }
 
